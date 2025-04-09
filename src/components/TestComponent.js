@@ -11,8 +11,9 @@ function TestComponent() {
         frameBorder="0"
         allow="autoplay; encrypted-media"
         title="time video"
-        allowFullScreen
+       allowFullScreen
       ></iframe>
+       <video title="time video">...</video>
     </div>
   );
 }

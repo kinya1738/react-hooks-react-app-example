@@ -19,7 +19,8 @@ test("should include the <ExampleComponent />", () => {
 });
 
 test("should include the <TestComponent />", () => {
-  expect(screen.queryByTitle("time video")).toBeInTheDocument();
+  expect(screen.queryAllByTitle("time video").length).toBeGreaterThan(0);
+
 });
 
 //   it('should include "Now" in the header instead of a time', () => {
